@@ -61,13 +61,13 @@ function gameReset (){
 	randomNum=Math.floor(Math.random()*101+19)
 	$('#numberToGet').text(randomNum);
 
-	var bluenum = Math.floor(Math.random()*11+1);
+	bluenum = Math.floor(Math.random()*11+1);
 
-	var greennum = Math.floor(Math.random()*11+1);
+	greennum = Math.floor(Math.random()*11+1);
 
-	var rednum = Math.floor(Math.random()*11+1);
+	rednum = Math.floor(Math.random()*11+1);
 
-	var yellownum = Math.floor(Math.random()*11+1);
+	yellownum = Math.floor(Math.random()*11+1);
 
 
 	// Console log each new number. just copy and paste honestly
