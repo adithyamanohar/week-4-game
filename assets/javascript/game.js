@@ -2,7 +2,7 @@ $( document ).ready(function(){
  
 
 
-  var randomNum= 20
+  var randomNum= Math.floor(Math.random()*101+19)
   // Selects a random number to be shown at the start of the game
   // Number should be should be between 19 - 120
   // Display the random number in the webpage
@@ -12,13 +12,13 @@ $( document ).ready(function(){
 
 // Set up a math.random for each crystal between 1-12. They should have the same value.
 
-var bluenum = 5;
+var bluenum = Math.floor(Math.random()*11+1);
 
-	var greennum = 5;
+	var greennum = Math.floor(Math.random()*11+1);
 
-	var rednum = 5;
+	var rednum = Math.floor(Math.random()*11+1);
 
-	var yellownum = 5;
+	var yellownum = Math.floor(Math.random()*11+1);
 
 
 // console log each crystal number 
@@ -54,20 +54,20 @@ $('#playerLosses').text(playerWins);
 
 function gameReset (){
 	// Reset the User total
-	var userTotal = 0;
+	userTotal = 0;
 	$("#userTotal1").text(userTotal);
 
 	// reset all of the randomly generated numbers by generating new ones
-	var randomNum=20
+	randomNum=Math.floor(Math.random()*101+19)
 	$('#numberToGet').text(randomNum);
 
-	var bluenum = 5;
+	var bluenum = Math.floor(Math.random()*11+1);
 
-	var greennum = 5;
+	var greennum = Math.floor(Math.random()*11+1);
 
-	var rednum = 5;
+	var rednum = Math.floor(Math.random()*11+1);
 
-	var yellownum = 5;
+	var yellownum = Math.floor(Math.random()*11+1);
 
 
 	// Console log each new number. just copy and paste honestly
